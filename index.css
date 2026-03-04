@@ -1,0 +1,91 @@
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: hsl(47, 98%, 48%);
+      }
+
+      .blog-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 50px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 10px 10px 0px;
+        padding: 20px;
+        width: 380px;
+        background-color: hsl(0, 0%, 100%);
+      }
+
+      #blogimg{
+        border-radius: 5px;
+      }
+
+      .blog-tag {
+        background-color: yellow;
+        width: 100px;
+        text-align: center;
+        font-size: 17px;
+        font-family:
+          "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+
+      .blog-date {
+        font-family:
+          "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+
+      h1 {
+        font-size: 27px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+
+      .blog-text {
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-family: "Trebuchet MS";
+        width: 340px;
+        color: grey;
+        
+      }
+
+      .avater{
+        display: flex;
+        gap: 10px;
+        margin: auto;
+        
+      }
+
+      .avater img{
+        width: 50px;
+        /* height: 40px; */
+      }
+
+
+
+            /* MEDIA QUERY FOR DIFFERENT SCREEN SIZE */
+      @media screen and( max-width: 600px) {
+
+        .blog-card {
+          display: flex;
+          flex-direction: column;
+          width: 300px;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+          margin-top: 50px;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0px 0px 2px white;
+          background-color: white;
+          text-align: center;
+          
+        }
+
+
+      
+      }
